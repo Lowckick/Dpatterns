@@ -5,7 +5,7 @@ from datetime import datetime
 from typing import List, Any
 
 
-
+@property
 class Name():
     def name(Student, PersonalInfo):
         x=Student.name.split()
