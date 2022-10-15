@@ -3,20 +3,18 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from datetime import datetime
 from typing import List, Any
-
-
 @property
-class Name():
-    def name(Student, PersonalInfo):
-        x=Student.name.split()
-        x[0]==PersonalInfo.first_name
-        x[1]==PersonalInfo.second_name
-        print(x[0], x[1])
-   
+def name():
+    x=name.split()
+    x[0]==first_name
+    x[1]==second_name
+    print(x[0], x[1])
+
 
 
 @dataclass
 class PersonalInfo:
+    
     """Data class with personal information"""
 
     id: int
@@ -29,7 +27,7 @@ class PersonalInfo:
     position: int
     rank: str
     salary: float
-
+  
 
 class Enrollment:
     @staticmethod
